@@ -1,0 +1,41 @@
+{
+        "object_type": "feed",
+        "content": {
+            "title": "카카오 지도 정보",
+            "description": "카카오 지도 정보2",
+            "image_url": "http://mud-kage.kakao.co.kr/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg",
+            "image_width": 640,
+            "image_height": 640,
+            "link": {
+                "web_url": "https://map.kakao.com/",
+                "mobile_web_url": "https://m.map.kakao.com/",
+                "android_execution_params": "contentId=100",
+                "ios_execution_params": "contentId=100"
+            }
+        },
+        "item_content" : {
+            "profile_text" :"쿠노소프트 511-1",
+            "profile_image_url" :"http://mud-kage.kakao.co.kr/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png",
+            "title_image_url" : "http://mud-kage.kakao.co.kr/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png",
+            "title_image_text" :"Cheese cake",
+            "title_image_category" : "Cake",
+            "sum" :"Total",
+            "sum_op" : "15000원"
+        },
+        "social": {
+            "like_count": 100,
+            "comment_count": 200,
+            "shared_count": 300,
+            "view_count": 400,
+            "subscriber_count": 500
+        },
+        "buttons": [
+            {
+                "title": "지도로 이동",
+                "link": {
+                    "web_url": "http://www.daum.net",
+                    "mobile_web_url": "http://m.daum.net"
+                }
+            }
+        ]
+    }
