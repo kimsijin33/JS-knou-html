@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> 자바스크립트 변수</title>
+    <script>
+
+    </script>
+</head>
+<body>
+    <div>
+        <h6>자바스크립트 연습</h6>
+    </div>
+    <script>
+        today = prompt("요일을 입력하세요, 월/화/수/목/금/토/일","")
+
+        switch(today) {
+            case "월" : document.write("오늘은 월요일입니다."); break;
+            case "화" : document.write("오늘은 화요일입니다."); break;
+            case "수" : document.write("오늘은 수요일입니다."); break;
+            case "목" : document.write("오늘은 목요일입니다."); break;
+            case "금" : document.write("오늘은 금요일입니다."); break;
+            case "토" : 
+            case "일" : document.write("주말은 가족과 함께 즐겁게 보내자."); break;
+            default : document.write("요일이 잘못 입력되었습니다.");
+        }
+    </script>
+</body>
+</html>
