@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> 자바스크립트</title>
+
+    <script>
+        function runNTimes(n, callback) {//피호출함수
+            for (var i = 1; i <= n; i++) {
+                document.write(i + "번째 호출: ");
+                callback();
+            }
+        }
+
+        runNTimes(10, function() { //함수 호출
+            document.write("안녕하세요! <br/>");
+        });
+    </script>
+</head>
+
+<body>
+    <div>
+        <h1>자바스크립트 함수</h1>
+    </div>
+    <button type="button" onClick="runNTimes()">합을 계산합니다
+    </button>
+
+</body>
+
+</html>
