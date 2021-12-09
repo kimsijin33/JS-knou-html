@@ -13,10 +13,20 @@
         document.write("<h4>* do~while문으로 2단 출력 * </h4>");
         var num = 1;
         do {
-            document.write(" 2 * " + num + " = " + 2*num+"<br/>") ;
+            document.write(" 2 * " + num + " = " + 2*num+"<br/><br/>") ;
             num++;
         } while (num <= 9)
         
+        var num1 = 0;
+        num2 = num1++;
+        num3 = ++num1;
+        document.write("++num2:"+num2+"<br/>")
+        document.write("++num3:"+num3+"<br/>")
+
+        var num4 = 0;
+        document.write("++num2:"+num2+"<br/>")
+        document.write("++num2:"+num2+"<br/>")
+
     </script>
 </body>
 
