@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> 자바스크립트</title>
+
+    <script>
+        var imgurl = prompt("이미지 파일 입력", "love.gif");
+        var count = parseInt(prompt("몇 개의 그림을 표시할까요?", ""));
+        document.write(
+            "이미지 파일" +imgurl+"을 "+count+"개 표시합니다ㅏ.<br/>");
+        for (var i=0; i<count; i++) {
+            if (i % 10 == 0) document.write("<br/>");
+            document.write("<img width='30' src=\'"+imgurl+"\'>");
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <h1>자바스크립트 prompt()함수</h1>
+    </div>
+    <button type="button" onClick="runNTimes()">합을 계산합니다
+    </button>
+
+</body>
+
+</html>
