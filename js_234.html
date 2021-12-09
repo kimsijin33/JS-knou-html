@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> 자바스크립트 변수</title>
+</head>
+
+<body>
+    <div>
+        <h1>자바스크립트 연습</h1>
+    </div>
+    <script>
+        var n, sum=0;
+        for (n = 1; n < 20; n++) {
+            if (n % 2 == 0) continue;
+            document.wirte(" <" + n + ">");
+            sum+=n;
+            if ( sum >= 100) {
+                document.write("의 합은" + sum);
+                break;
+            }
+        }
+
+    </script>
+</body>
+
+</html>
