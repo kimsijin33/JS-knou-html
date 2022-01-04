@@ -1,1 +1,1 @@
-document.write("hello js")
+document.write("hello js 외부 스크립트 방식")
